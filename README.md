@@ -17,5 +17,8 @@ const configKeys: ConfigKeys = {
 export default configKeys;
 ```
 
+# Dev
+| npm run-script dev-run
+
 # Run
-npm run-script dev-run
+| npm run-script run
