@@ -1,7 +1,5 @@
-// 'use strict';
 import * as ccxt from 'ccxt';
-// var ccxt = require ('ccxt')
-import * as configKeys from './ConfigKeys.js';
+import * as configKeys from './ConfigKeys';
 
 export class BitflyerAPI {
 
@@ -17,17 +15,7 @@ export class BitflyerAPI {
     }
 
     async fetchPrice(): Promise<number | undefined> {
-
         let ticker = await this.bitflyer.fetchTicker('FX_BTC_JPY')
         return ticker.last
-
-        // return new Promise((resolve, reject) => {
-        //     const ticker: Promise<ccxt.Ticker> = this.bitflyer.fetchTicker('FX_BTC_JPY')
-        //     ticker.then { aa
-
-        //     }
-        //     return ticker.last
-        //     })
-
     }
 }

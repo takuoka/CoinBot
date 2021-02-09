@@ -17,11 +17,5 @@ const configKeys: ConfigKeys = {
 export default configKeys;
 ```
 
-# Build & Run
-
-### Auto Compile
-| tsc -w
-
-### Auto Run
-| nodemon dist/index.js --delay 2
-
+# Run
+npm run-script dev-run

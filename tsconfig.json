@@ -1,11 +1,11 @@
 {
     "compilerOptions": {
-      "module": "ES2020",
-      "target": "ES2020",
+      "module": "commonjs",
+      "target": "es6",
+      "lib": [ "es2015" ],
       "outDir": "dist",
       "sourceMap": true,
       "strict": true,
-      "noLib": true,
       "moduleResolution": "node",
     },
       "include": [
